@@ -55,5 +55,5 @@ foreach ($suggestions as $suggestion) {
 //...
 use Gymmet\Reader\ArrayReader as Reader;
 
-$reader = new Reader([["10:00", "11:00], ["12:25", "14:20"]]);
+$reader = new Reader([["10:00", "11:00"], ["12:25", "14:20"]]);
 ```
