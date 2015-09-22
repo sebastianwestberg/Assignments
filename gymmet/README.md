@@ -12,7 +12,7 @@ Utmaning: skriv ett program som tar emot data i ovanstående format och returner
 
 ---
 ## Lösningsexempel:
-```
+```php
 <?php 
 
 require 'vendor/autoload.php';
@@ -50,7 +50,7 @@ foreach ($suggestions as $suggestion) {
 ```
 
 #### Exempel för "Gymmet\Reader\TxtFormatReader"
-```
+```php
 <?php
 use Gymmet\Reader\ArrayReader as Reader;
 
